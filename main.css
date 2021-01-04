@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    background: #3498db;
+    position: fixed;
+    z-index: 1;
+}
+/* header  part start */
+    .header-logo img{       /* logo part */
+        width: 220px;
+    }
+    .header-logo a{
+        color: white;
+    }
+
+    .header-menu{           /* menu part */
+        
+    }
+    .header-menu ul{
+        text-align: right;
+        margin-bottom: 0;
+    }
+    .header-menu ul li{
+        display: inline-block; 
+        border-right: 1px solid #fff;
+        line-height: 73px;
+        margin-left: -4px; 
+        transition: .5s;
+    }
+    .header-menu ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 30px;
+        font-size: 20px;
+    }
+    .header-menu ul li:hover{
+        background: #2980b9;
+    }
+/* header  part end */
+
+
+/* slider  part start */
+    .slider{
+        background: url(./img/slider3.jpg) no-repeat center;
+        background-size: cover;
+        height: 500px;
+    }
+    .slider-text h2{
+        background: #1aaf92;
+        display: inline-block;
+        margin: 150px auto;
+        padding: 15px 15px;
+        color: #fff;
+        font-size: 45px;
+        border-radius: 0px 40px 0px 40px;
+    }
+    .slider-text h3 {
+        background: #0d7b65;
+        width: 561px;
+        color: white;
+        margin: -125px auto;
+        font-size: 35px;
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+/* slider  part end */
+
+
+/* About Section start */
+    .about{
+        background-color: #e0e0e1;
+        padding: 40px 10px;
+    }
+    .about-text h2{
+        font-weight: 600;
+        font-size: 45px;
+    }
+    .about-text p{
+        width: 780px;
+        margin: auto;
+    }
+/* About Section end */
+
+
+/* service section start */
+    .service{
+        padding: 45px 0;
+        background: #f3f3f3;
+    }
+    .card span i{
+        font-size: 35px;
+        padding: 10px 20px;
+        background: #3498db;
+        border-radius: 0 15px 0 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .card h1{
+        font-size: 35px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+    .card p{}
+/* service section end */
+
+
+/* Product seection start */
+    .product{          /* left-side */
+        padding: 40px 0;
+    }
+    .product-item img{
+        height: 300px;
+        
+    }
+    .product-item p{
+        text-align: justify;
+    }
+
+    .notice h1{             /* right-side */
+        color: #5c7e4e;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .notice ul{
+        text-align: left;
+    }
+    .notice ul li{
+        list-style: none;
+        padding: 15px 15px;
+        border: 1px solid #d4d4d4;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+/* Product seection end */
+
+
+/* contact start */
+.contact{
+    padding-bottom: 55px;
+    background: #F3F3F3;
+}    
+.map iframe{
+        height: 520px;
+        width: 540px;
+    }
+
+.contact-form input{
+    margin-bottom: 10px;
+}
+.contact-form textarea{
+    margin-bottom: 10px;
+}
+/* contact end */
+
+
+/* footer section start */
+.footer{
+    background: #34495e;
+}
+.copyright p{
+    color: white;
+    padding: 35px 0;
+}
+
+.social ul{
+    text-align: right;
+}
+.social ul li{
+    display: inline-block;
+    margin: 15px 0px;
+}
+.social ul li a{
+    color: white;
+    font-size: 45px;
+    padding: 5px 20px;
+    transition: .5s;
+}
+.social ul li a:hover{
+    background: #2c3e50;
+    border-radius: 10px;
+    color: blue;
+}
+/* footer section end */
